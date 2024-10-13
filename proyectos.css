@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* CSS Document */
+*
+{
+margin:0;
+box-sizing:border-box;	
+}
+section
+{
+text-align:center;
+display:block;
+justify-content: center;
+}
+.cuarto div img
+{
+max-width:100%;
+width:100%;
+}
+
+
+
+@media screen and (min-width:760px)
+{
+.cuarto
+{
+padding:9px;
+text-align:center;
+display:flex;
+flex-direction:row;
+flex-wrap: wrap;
+justify-content: center;
+
+}
+.cuarto div
+{
+width:30%;
+}
+
+}
+
+
