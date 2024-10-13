@@ -1,0 +1,125 @@
+*
+{
+margin:0;
+box-sizing:border-box;	
+}
+
+body
+{
+padding-top: 10%;
+}
+.imagenPorfolio
+{
+max-width: 10%;
+}
+img
+{
+max-width:100%;
+display:block;
+margin:auto;	
+}
+header
+{
+background:white;
+padding:3px;
+top:0px;
+left:0px;
+position:fixed;
+width:100%;
+}
+.bienvenida
+{
+background:white;
+position:fixed;
+padding:3px;
+text-align:center;
+color:black;
+top:0px;
+right:0;
+width:100%;
+}
+.menu
+{
+background:white;
+width:100%;
+}
+.menu ul
+{
+width:100%;
+position:fixed;
+color:white;
+top: 8%;
+left:-100%;
+border-radius: 5px;
+background-color: rgb(86, 196, 159);
+}
+
+.bienvenida:hover .menu ul
+{
+left:0%;
+transition-duration: 2s;
+background-color: rgb(86, 196, 159);
+}
+.inicio:hover 
+{
+color:black;
+transition-duration: 2s;
+}
+.info:hover 
+{
+color:black;
+transition-duration: 2s;
+}
+.historia:hover
+{
+color:black;
+transition: color 2s;
+
+}
+													/*NAV/LIST*/													
+nav ul
+{
+padding:0;
+list-style:none;
+display:flex;
+flex-direction:column;
+}
+
+nav ul li a
+{
+text-decoration:none;
+display:block;
+color: rgb(152, 241, 212);
+text-align:center;
+padding: 10px 15px;
+}
+
+
+
+
+@media screen and (min-width:1024px)
+{
+
+nav ul
+{
+display: flex;
+flex-direction: row;
+justify-content: center;
+
+}
+.menu ul
+{
+width:100%;
+position:fixed;
+color:white;
+top:20.2%;
+
+border-radius: 5px;
+background-color: rgb(86, 196, 159);
+}
+body
+{
+padding-top: 15%;
+}
+}
+
